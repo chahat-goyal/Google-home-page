@@ -1,0 +1,58 @@
+.main{
+    margin-top: 100px; /*blank space above all things included in div*/
+  /*  text-align: center; */ /*aligns whole body to center bt inflexible therefore use flexbox*/
+}
+.logo-img{
+   /* margin-top: 100px; blank space above image
+   bt we write it in div*/
+    display:block;
+    width: 300px;
+    margin-bottom:20px;
+    /*now centalising it: 3 conditions:
+    1.block,already satisfid
+    2.max width,already satisfied
+    3.left,right margins: */
+    margin-left:auto;
+    margin-right: auto;
+/*if only margin left auto then whole img at the right*/
+}
+.search-input{
+    display: block;
+    width: 400px;
+}
+.btn{
+ /*   display: block;          /* we need buttons in same line but then they cant be aligned at center */
+     /* margin-left: auto; */     /*as left right auto works will block only n block aligns one above other*/
+     /* margin-right: auto;*/     
+    margin-top: 30px;
+    background: #dfe1e5;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+/* .main (name of class)is used insted of div*/
+.search-input{
+   line-height:24px;
+  /* margin-left: auto;
+   margin-right: auto;*/
+  /* margin : 0px auto 0px auto ;*/  /* shortcut- margin: top right bottom left(hands of clock)*/
+   margin: 0px auto;            /*aur bhi jada shortcut: if left,right;up-down same then ;margin:top/bottom left/right;*/
+    padding-left: 30px;
+     padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*as input will start after some space,therefore padding is given*/
+    border:1px solid #dfe1e5;
+ border-radius: 24px;
+}
+.btn-wrapper{
+    display:flex;
+    justify-content: center;
+}

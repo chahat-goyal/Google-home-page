@@ -1,0 +1,27 @@
+<!--IF WE WANT TO APPLY WIDTH OR ANY OTHER FXN ABOVE FIRST(OR ANY SPECIFIC) DIV ONLY (IN STYLE.CSS)WE NEED CLASSES-->
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class ="main">                                  <!--main is jst a name,can be anything-->
+        <img class ="logo-img" src="./google.png">  <!--logo-img is jst a name,can be anything-->
+        <input class ="search-input " type="text">
+        <div class="btn-wrapper"> <!--to use flexbox on buttons wrap in one container-->
+            <button class="btn">
+                google search
+            </button>
+            <button class="btn">
+                I'm feeling lucky
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--google png file was local to google folder not classes folder,hence we use double dot to use image in classes 
+problem is solved here,insted of div we give seperate names hence can use easily in styles.css
+-->
